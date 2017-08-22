@@ -7,7 +7,7 @@
     $("#warning").hide();
     var solr = require('solr-client');
 
-    var client = solr.createClient('192.168.30.67', '8983', 'wiki');
+    var client = solr.createClient('172.19.43.118', '8983', 'wiki');
     console.log(client);
     $('#ping').click(function () {
         client.ping(function (err, obj) {
