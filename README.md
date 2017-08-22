@@ -2,9 +2,11 @@
 
 ## Installation
 
-You must have _Browserify_ installed globaly
+You must have _Browserify_ installed globally
 
 `npm install -g browserify`
+
+then: 
 
 `git clone https://github.com/duvanbedoya/Solr-Web-implementation` this repo
 
